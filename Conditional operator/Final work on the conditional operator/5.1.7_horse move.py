@@ -8,4 +8,4 @@ elif (x1 - 2 == x2 or x1 + 2 == x2) and (y1 - 1 == y2 or y1 + 1 == y2):
     print('YES')
 else:
     print('NO')
-    
+
