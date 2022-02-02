@@ -1,0 +1,13 @@
+n = int(input())
+summ = 0
+kolvo = 0
+proiz = 1
+lastd = n % 10
+while n != 0:
+    last = n % 10
+    summ = summ + last
+    kolvo = kolvo + 1
+    proiz = proiz * last
+    sra = summ / kolvo
+    n = n // 10
+print(summ, kolvo, proiz, sra, last, lastd + last, sep='\n')
